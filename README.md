@@ -16,9 +16,6 @@
 
 ## Architektura i struktura
 
-```
-
-.
 ├── .idea/                   # Konfiguracje IDE
 ├── app/                     # Kod aplikacji Android
 ├── gradle/                  # Wrapper Gradle
@@ -27,7 +24,6 @@
 ├── gradlew / gradlew\.bat    # Skrypty uruchomienia
 └── settings.gradle.kts
 
-````
 
 - Kod aplikacji znajduje się w katalogu `app/`.  
 - Gradle służy do budowania projektu — konfiguracja w `build.gradle.kts`.  
@@ -41,7 +37,7 @@
    ```bash
    git clone https://github.com/milosz-amg/Secured_Notebook.git
    cd Secured_Notebook
-````
+
 
 2. Otwórz projekt w Android Studio
 3. Upewnij się, że masz zainstalowaną odpowiednią wersję SDK Android
